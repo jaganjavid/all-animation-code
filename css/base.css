@@ -7,16 +7,6 @@
 :root {
 	font-size: 16px;
 	--page-padding: 1.5rem;
-	--color-text: #fff;
-	--color-bg: #12100e;
-	--color-link: rgba(255,255,255,0.6);
-	--color-link-hover: #fff;
-	--color-bg-1: #2f251e;
-	--color-bg-2: #43392f;
-	--color-bg-3: var(--color-bg-1);
-	--color-bg-4: var(--color-bg-2);
-	--color-bg-5: var(--color-bg-1);
-	--color-bg-6: var(--color-bg-2);
 }
 
 body {
@@ -32,17 +22,18 @@ body {
 }
 
 
-.demo-6 {
-	--color-text: #000;
+.wrapper {
+	--color-text: #ffffff;
 	--color-bg: #e1e1e1;
 	--color-link: rgba(0,0,0,0.6);
 	--color-link-hover: #000;
-	--color-bg-1: #9d9d9d;
-	--color-bg-2: #c7c7c7;
+	--color-bg-1: #0d48f9;
+	--color-bg-2: #fc5d1e;
 	--color-bg-3: var(--color-bg-1);
 	--color-bg-4: var(--color-bg-2);
 	--color-bg-5: var(--color-bg-1);
 	--color-bg-6: var(--color-bg-2);
+	width: 50%;
 }
 
 
